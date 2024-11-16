@@ -10,7 +10,7 @@ process.on("uncaughtException", (err) => {
 // config
 if (process.env.NODE_ENV !== "PRODUCTION") {
   require("dotenv").config({
-    path: "config/.env",
+    path: ".env",
   });
 }
 
@@ -18,9 +18,9 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
 connectDatabase();
 
 // create server
-const server = app.listen(process.env.PORT, () => {
+const server = app.listen(process.env.MONGODB_URI, () => {
   console.log(
-    `Server is running on http://localhost:${process.env.PORT}`
+    `Server is running on http://localhost:${process.env.MONGODB_URI}`
   );
 });
 

@@ -1,19 +1,19 @@
 // navigation Data
 export const navItems = [
     {
-      title: "Home",
+      title: "Inicio",
       url: "/",
     },
     {
-      title: "Best Selling",
+      title: "Más vendidos",
       url: "/best-selling",
     },
     {
-      title: "Products",
+      title: "Servicios",
       url: "/products",
     },
     {
-      title: "Events",
+      title: "Eventos",
       url: "/events",
     },
     {
@@ -26,162 +26,43 @@ export const navItems = [
   export const brandingData = [
     {
       id: 1,
-      title: "Free Shipping",
-      Description: "From all orders over 100$",
+      title: "Encuentra amigos ",
+      Description: "mientras juegas",
       icon: (
-        <svg
-          width="36"
-          height="36"
-          viewBox="0 0 36 36"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1 1H5.63636V24.1818H35"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M8.72763 35.0002C10.4347 35.0002 11.8185 33.6163 11.8185 31.9093C11.8185 30.2022 10.4347 28.8184 8.72763 28.8184C7.02057 28.8184 5.63672 30.2022 5.63672 31.9093C5.63672 33.6163 7.02057 35.0002 8.72763 35.0002Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M31.9073 35.0002C33.6144 35.0002 34.9982 33.6163 34.9982 31.9093C34.9982 30.2022 33.6144 28.8184 31.9073 28.8184C30.2003 28.8184 28.8164 30.2022 28.8164 31.9093C28.8164 33.6163 30.2003 35.0002 31.9073 35.0002Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M34.9982 1H11.8164V18H34.9982V1Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M11.8164 7.18164H34.9982"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-        </svg>
+        <svg fill="#000000" width="50px" height="50px" viewBox="0 -64 640 640" xmlns="http://www.w3.org/2000/svg"><path d="M192 256c61.9 0 112-50.1 112-112S253.9 32 192 32 80 82.1 80 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C51.6 288 0 339.6 0 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zM480 256c53 0 96-43 96-96s-43-96-96-96-96 43-96 96 43 96 96 96zm48 32h-3.8c-13.9 4.8-28.6 8-44.2 8s-30.3-3.2-44.2-8H432c-20.4 0-39.2 5.9-55.7 15.4 24.4 26.3 39.7 61.2 39.7 99.8v38.4c0 2.2-.5 4.3-.6 6.4H592c26.5 0 48-21.5 48-48 0-61.9-50.1-112-112-112z"/></svg>
       ),
     },
     {
       id: 2,
-      title: "Daily Surprise Offers",
-      Description: "Save up to 25% off",
+      title: "Participa en torneos",
+      Description: "Constantemente",
       icon: (
-        <svg
-          width="32"
-          height="34"
-          viewBox="0 0 32 34"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M31 17.4502C31 25.7002 24.25 32.4502 16 32.4502C7.75 32.4502 1 25.7002 1 17.4502C1 9.2002 7.75 2.4502 16 2.4502C21.85 2.4502 26.95 5.7502 29.35 10.7002"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-          ></path>
-          <path
-            d="M30.7 2L29.5 10.85L20.5 9.65"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
+        <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 6C5.17157 6 4.5 6.67157 4.5 7.5C4.5 8.32843 5.17157 9 6 9L6 6ZM6 10.5C4.34315 10.5 3 9.15685 3 7.5C3 5.84315 4.34315 4.5 6 4.5H18C19.6569 4.5 21 5.84315 21 7.5C21 9.15685 19.6569 10.5 18 10.5V11.3308C18 13.9668 15.7097 16.142 12.75 16.46V18.75H15V20.25H9V18.75H11.25V16.46C8.29027 16.142 6 13.9668 6 11.3308L6 10.5ZM12 15C14.7029 15 16.5 13.1552 16.5 11.3308V6H7.5V11.3308C7.5 13.1552 9.29713 15 12 15ZM19.5 7.5C19.5 8.32843 18.8284 9 18 9V6C18.8284 6 19.5 6.67157 19.5 7.5Z" fill="#080341"/>
         </svg>
       ),
     },
     {
       id: 4,
-      title: "Affortable Prices",
-      Description: "Get Factory direct price",
+      title: "Buscamos escenarios",
+      Description: "cerca a tu ubicación",
       icon: (
-        <svg
-          width="32"
-          height="35"
-          viewBox="0 0 32 35"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M7 13H5.5C2.95 13 1 11.05 1 8.5V1H7"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-          ></path>
-          <path
-            d="M25 13H26.5C29.05 13 31 11.05 31 8.5V1H25"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-          ></path>
-          <path
-            d="M16 28V22"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-          ></path>
-          <path
-            d="M16 22C11.05 22 7 17.95 7 13V1H25V13C25 17.95 20.95 22 16 22Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M25 34H7C7 30.7 9.7 28 13 28H19C22.3 28 25 30.7 25 34Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
+        <svg fill="#000000" width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+
+        <title/>
+        <g data-name="Layer 2" id="Layer_2">
+        <path d="M2,20H22V4H2Zm11-9.72a2,2,0,0,1,0,3.44Zm-2,3.44a2,2,0,0,1,0-3.44ZM20,14H19V10h1Zm0-6H17v8h3v2H13V15.86a4,4,0,0,0,0-7.72V6h7ZM11,6V8.14a4,4,0,0,0,0,7.72V18H4V16H7V8H4V6ZM4,14V10H5v4Z"/>
+        </g>
         </svg>
       ),
     },
     {
       id: 5,
-      title: "Secure Payments",
-      Description: "100% protected payments",
+      title: "Compite por",
+      Description: "premios",
       icon: (
-        <svg
-          width="32"
-          height="38"
-          viewBox="0 0 32 38"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M22.6654 18.667H9.33203V27.0003H22.6654V18.667Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M12.668 18.6663V13.6663C12.668 11.833 14.168 10.333 16.0013 10.333C17.8346 10.333 19.3346 11.833 19.3346 13.6663V18.6663"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
-          <path
-            d="M31 22C31 30.3333 24.3333 37 16 37C7.66667 37 1 30.3333 1 22V5.33333L16 2L31 5.33333V22Z"
-            stroke="#FFBB38"
-            stroke-width="2"
-            stroke-miterlimit="10"
-            stroke-linecap="square"
-          ></path>
+        <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.9201 12.8959L19.2583 8.89003C19.533 8.5604 19.6704 8.39557 19.7681 8.21065C19.8548 8.0466 19.9183 7.87128 19.9567 7.68973C20 7.48508 20 7.27053 20 6.84144V6.2C20 5.07989 20 4.51984 19.782 4.09202C19.5903 3.71569 19.2843 3.40973 18.908 3.21799C18.4802 3 17.9201 3 16.8 3H7.2C6.0799 3 5.51984 3 5.09202 3.21799C4.71569 3.40973 4.40973 3.71569 4.21799 4.09202C4 4.51984 4 5.07989 4 6.2V6.84144C4 7.27053 4 7.48508 4.04328 7.68973C4.08168 7.87128 4.14515 8.0466 4.23188 8.21065C4.32964 8.39557 4.467 8.5604 4.74169 8.89003L8.07995 12.8959M13.4009 11.1989L19.3668 3.53988M10.5991 11.1989L4.6394 3.53414M6.55673 6H17.4505M17 16C17 18.7614 14.7614 21 12 21C9.23858 21 7 18.7614 7 16C7 13.2386 9.23858 11 12 11C14.7614 11 17 13.2386 17 16Z" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
         </svg>
       ),
     },
@@ -191,72 +72,72 @@ export const navItems = [
   export const categoriesData = [
     {
       id: 1,
-      title: "Computers and Laptops",
+      title: "Tennis",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789131/tennis_icon_124456_dpmvny.png",
     },
     {
       id: 2,
-      title: "cosmetics and body care",
+      title: "Futbol",
       subTitle: "",
       image_Url:
-        "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789174/Football_2-57_icon-icons.com_72103_m93tst.png",
     },
     {
       id: 3,
-      title: "Accesories",
+      title: "Baloncesto",
       subTitle: "",
       image_Url:
-        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+        "https://cdn-icons-png.flaticon.com/512/4533/4533602.png",
     },
     {
       id: 4,
-      title: "Cloths",
+      title: "Ciclismo",
       subTitle: "",
       image_Url:
-        "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789749/3601647_klfagn.png",
     },
     {
       id: 5,
-      title: "Shoes",
+      title: "Natación",
       subTitle: "",
       image_Url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789264/5222367_tyroe1.png",
     },
     {
       id: 6,
-      title: "Gifts",
+      title: "Ping Pong",
       subTitle: "",
       image_Url:
-        "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789296/2119006_mdicug.png",
     },
     {
       id: 7,
-      title: "Pet Care",
+      title: "Padel",
       subTitle: "",
-      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+      image_Url: "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789410/8842175_jdwnrc.png",
     },
     {
       id: 8,
-      title: "Mobile and Tablets",
+      title: "Squash",
       subTitle: "",
       image_Url:
-        "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789452/7225480_rqscaw.png",
     },
     {
       id: 9,
-      title: "Music and Gaming",
+      title: "Runnig",
       subTitle: "",
       image_Url:
-        "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731789472/4357645_vtov3v.png",
     },
     {
       id: 10,
-      title: "Others",
+      title: "Otros",
       subTitle: "",
       image_Url:
-        "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+        "https://res.cloudinary.com/damn7aehg/image/upload/c_fill,w_50,h_50/v1731786451/2048px-Sport_balls.svg_vokmio.png",
     },
   ];
   
@@ -593,39 +474,29 @@ export const navItems = [
   
   export const footerProductLinks = [
     {
-      name: "About us",
+      name: "Sobre nosotros",
       link: "/about"
     },
     {
-      name: "Careers",
-      link: "/carrers"
-    },
-    {
-      name: "Store Locations",
-    },
-    {
-      name: "Our Blog",
-    },
-    {
-      name: "Reviews",
+      name: "Nuestro blog",
     },
   ];
   
   export const footercompanyLinks = [
     {
-      name: "Game & Video",
+      name: "Con raqueta",
     },
     {
-      name: "Phone &Tablets",
+      name: "Con Balón",
     },
     {
-      name: "Computers & Laptop",
+      name: "De Exterior",
     },
     {
-      name: "Sport Watches",
+      name: "De Equipo",
     },
     {
-      name: "Events",
+      name: "Eventos",
     },
   ];
   
@@ -634,16 +505,13 @@ export const navItems = [
       name: "FAQ",
     },
     {
-      name: "Reviews",
+      name: "Reseña",
     },
     {
-      name: "Contact Us",
+      name: "Contactenos",
     },
     {
-      name: "Shipping",
-    },
-    {
-      name: "Live chat",
+      name: "Envíos",
     },
   ];
   

@@ -1,3 +1,3 @@
-export const server = "https://shopobackend.vercel.app/api/v2";
+export const server = "http://localhost:3900/api/";
 
-export const backend_url = "https://shopobackend.vercel.app";
+export const backend_url = "http://localhost:3900/api/";
